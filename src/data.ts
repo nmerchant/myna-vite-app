@@ -8,7 +8,7 @@ export const data = {
               "id": "2cc417bf-0475-4029-a38b-d03317719b8c",
               "name": "Jordan 11 Retro Adapt Dark Powder Blue",
               "sku": "DO6365-001",
-              "retailPrice": 500000000,
+              "retailPrice": 400000000,
               "images": [
                 {
                   "assetImageOrderIndex": 4,
