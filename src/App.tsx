@@ -58,7 +58,7 @@ function App() {
         <main className="flex min-h-screen w-full items-start justify-between p-24 gap-4">
             <div className='w-[300px] mt-[52px] flex flex-col gap-4 text-left'>
                 <input className='w-full border border-[#2B3641] rounded-full bg-[#15212D] p-3'
-                    onChange={e => { setSearchString(e?.currentTarget?.value) }} 
+                    onChange={e => { setSearchString(e?.currentTarget?.value.toLowerCase()) }} 
                     placeholder='Search items...' />
                 <div className='w-full flex flex-col gap-2'>
                     <div className='font-bold'>Sort by Price</div>
