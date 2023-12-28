@@ -81,7 +81,7 @@ function App() {
                         const node = edge.node;
                         return (
                             <div key={dataToRender.indexOf(edge)} className='w-[280px] flex flex-col gap-4 border border-[#2B3641] rounded-lg bg-[#15212D] p-8'>
-                                <div className={`bg-cover bg-center bg-[url('https://cdn.myna.co/DO6365-001/DO6365-001_JPG-5_5d595be6-c5b3-4a5f-ad82-bad0487e4f29.jpg')] h-[180px] w-full`} />
+                                <img src={`${baseImgUrl}${node.images[0].imageURL}`} height={180} />
                                 <div className='font-bold'>{node?.name}</div>
                                 <div>
                                     <div className='text-[#949CA4] text-sm'>Price</div>
